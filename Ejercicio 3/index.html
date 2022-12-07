@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Hotel Sur</title>
+    </head>
+
+<body>
+<h1>Hotel Sur - Reserve su habitación</h1>
+<fieldset class="grupo-datos">
+    <legend>Introduzca sus datos de reserva</legend>
+    <label>Nombre</label> <input required>
+    <label> Apellidos </label> <input required>
+    <br>
+    <label>Teléfono </label> <input required>
+    <label> E-mail </label> <input type=“email” required> 
+    <br>
+    <label> Número de coches </label> <input required>
+</fieldset>
+
+<fieldset class="grupo-datos">
+    <legend>Seleccione la fecha de entrada y salida</legend>
+    <label>Fecha de entrada:</label>
+    <br>
+    <select>
+        <option>dia</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+    </select>
+    <select>
+        <option>mes</option>
+        <option>Enero</option>
+        <option>Febrero</option>
+        <option>Marzo</option>
+        <option>Abril</option>
+        <option>Mayo</option>
+        <option>Junio</option>
+        <option>Julio</option>
+        <option>Agosto</option>
+        <option>Septiembre</option>
+        <option>Octubre</option>
+        <option>Noviembre</option>
+        <option>Diciembre</option>
+    </select>
+    <br>
+    <label>Fecha de salida</label>
+    <br>
+    <select>
+        <option>dia</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+    </select>
+    <select>
+        <option>mes</option>
+        <option>Enero</option>
+        <option>Febrero</option>
+        <option>Marzo</option>
+        <option>Abril</option>
+        <option>Mayo</option>
+        <option>Junio</option>
+        <option>Julio</option>
+        <option>Agosto</option>
+        <option>Septiembre</option>
+        <option>Octubre</option>
+        <option>Noviembre</option>
+        <option>Diciembre</option>
+    </select>   
+</fieldset>
+
+<fieldset class="grupo-datos">
+<legend>Tipo de habitación</legend>
+<p>¿Qué tipo de habitación quieres resevar?</p>
+<p>
+	Simple: <input type="radio" name="tipo-habitacion" /><br />
+	Doble: <input type="radio" name="tipo-habitacion" /><br />
+	Matrimonio: <input type="radio" name="tipo-habitacion" />
+</p>
+</fieldset>
+
+<fieldset class="grupo-datos">
+    <legend>¿Necesita servicios adicionales?</legend>
+    <table>
+        <tr>
+            <td><input type="checkbox" name="servicios"/>Desayuno</td>
+            <td><input type="checkbox" name="servicios"/>Comida</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="servicios"/>Cena</td>
+            <td><input type="checkbox" name="servicios"/>Cama supletoria</td>
+        </tr>
+    </table>
+</fieldset>
+
+<fieldset class="grupo-datos">
+    <legend>Comentarios</legend>
+    <textarea rows="3" cols="100"></textarea>
+</fieldset>
+
+<input type="submit" class="boton">
+<input type="reset" class="boton">
+
+</body>
